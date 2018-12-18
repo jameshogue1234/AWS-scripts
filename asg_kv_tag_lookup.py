@@ -7,6 +7,7 @@ value = str(sys.argv[2])
 Example:
 python asg_kv_tag_lookup.py <tag Name> <tag value>
 python asg_kv_tag_lookup.py Production True
+I also realize most of this was stolen...
 '''
 
 client = boto3.client('autoscaling')
