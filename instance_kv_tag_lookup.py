@@ -3,7 +3,12 @@ import sys
 
 key = str(sys.argv[1])
 value = str(sys.argv[2])
-
+'''
+Example:
+python instance_kv_tag_lookup.py <tag Name> <tag value>
+python instance_kv_tag_lookup.py Production True
+I also realize most of this was stolen...
+'''
  
 def list_instances_by_tag_value(tagkey, tagvalue):
     # When passed a tag key, tag value this will return a list of InstanceIds that were found.
