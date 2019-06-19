@@ -1,4 +1,4 @@
-# AWS-acripts
+# AWS-scripts
 All aws scripts.
 
 ```
