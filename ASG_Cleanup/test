@@ -1,0 +1,26 @@
+myDict = {}
+myDict["key1"] = [1, 2]
+myDict["key2"] = ["10.10.10.1", "10.10.10.2", "10.10.10.3"]
+protected_tags = { "provisionworker_prod_asg", "provisionworker_preprod_asg", "provisionworker_rollback_asg" }
+d = ["10.10.10.1", "10.10.10.2", "10.10.10.3"]
+a = "provisionworker_prod_asg"
+print(myDict)
+#print(myDict['key2'])
+print("Deleteing key1")
+myDict.pop("key1", None)
+
+print(myDict)
+
+#for k in sorted(protected_tags):
+#    print(k)
+#    protected_tags.update([k, 123])
+
+
+protected_tags.update({ 'a' : 'd'})
+
+#for i in d:
+#    print(i)
+#    print(a)
+#    protected_tags.update({ a:'i'})
+
+print(protected_tags)
